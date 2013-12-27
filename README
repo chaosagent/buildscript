@@ -1,0 +1,2 @@
+This is a script for noobs that can set up a build environment and build ROMs without entering any commands other than the initialization of the script.
+Currently, the only supported Linux distribution is Ubuntu 12.04+.

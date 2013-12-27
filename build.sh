@@ -1,5 +1,5 @@
 #
-#  Copyright (c) 2013 David Hou
+#  Copyright (c) 2013 David Hou´s brain
 #
 #  Licensed under GPLv3.
 #  Read more about it at http://gplv3.fsf.org/
@@ -11,7 +11,7 @@ confdir=~/.androidbuild
 function main {
 	while [ True ]
 	do
-		echo "What do you want to do?"
+		echo "What do you want to do -.-?"
 		echo "  a) Initialize a ROM repository"
 		echo "  b) Enter a ROM repository"
 		echo "  c) Quit"
@@ -22,7 +22,7 @@ function main {
 				a) repoinit;;
 				b) torepo;;
 				c) exit;;
-				*) echo "Please enter the letter of the option you want";;
+				*) echo "Please enter the letter of the option you want ?!";;
 			esac
 		done
 	done
@@ -30,8 +30,8 @@ function main {
 
 function setupEnv {
 	mkdir $confdir 2>/dev/null
-	echo "Setting up build environment. I will need root access to install packages for this."
-	sudo echo "Installing packages. This might take a while, depending on your internet speed. It also might ask you for your password again because it takes so long."
+	echo "Setting up build environment. I will need root access to install packages for this shit."
+	sudo echo "Installing packages. This might years, depending on your internet speed. It also might ask you for your password again because it steals it."
 	sudo apt-get install openjdk-6-jdk python git-core git gnupg flex bison gperf build-essential zip curl libc6-dev libncurses5-dev x11proto-core-dev libx11-dev libreadline6-dev libgl1-mesa-glx libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev > /dev/null 2>&1
 	sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
 	sudo echo '#Acer
